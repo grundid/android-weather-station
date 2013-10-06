@@ -1,0 +1,148 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Outside"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/outside"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="-"
+                android:textSize="96sp" />
+
+            <TextView
+                android:id="@+id/outside_last_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="8dp"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Humidity"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/humidity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="-"
+                android:textSize="96sp" />
+
+            <TextView
+                android:id="@+id/humidity_last_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="8dp"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Inside"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/inside"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="-"
+                android:textSize="96sp" />
+
+            <TextView
+                android:id="@+id/inside_last_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="8dp"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Pressure"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/pressure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="-"
+                android:textSize="96sp" />
+
+            <TextView
+                android:id="@+id/pressure_last_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="8dp"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
