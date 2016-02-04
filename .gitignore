@@ -1,3 +1,8 @@
-gen
-bin
-.settings
+build
+.idea
+.gradle
+*.iml
+
+.DS_Store
+local.properties
+
