@@ -2,5 +2,6 @@
 <resources>
 
     <string name="app_name">Weather Station</string>
+    <string name="main_activity">Wetterstation Coworking Space Heilbronn</string>
 
 </resources>

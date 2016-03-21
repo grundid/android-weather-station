@@ -17,4 +17,6 @@ public class OutsideSensor extends Sensor {
 	public int getHumidity() {
 		return getByte(4);
 	}
+
+
 };

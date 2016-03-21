@@ -15,7 +15,7 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		initUi();
-		SensorHandler sensorHandler = new SensorHandler(findViewById(R.id.inside), findViewById(R.id.outside),
+		SensorHandler sensorHandler = new SensorHandler(this, findViewById(R.id.inside), findViewById(R.id.outside),
 				findViewById(R.id.pressure), findViewById(R.id.humidity), findViewById(R.id.inside_last_update),
 				findViewById(R.id.outside_last_update), findViewById(R.id.pressure_last_update),
 				findViewById(R.id.humidity_last_update));

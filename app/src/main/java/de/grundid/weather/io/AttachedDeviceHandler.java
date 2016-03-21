@@ -14,6 +14,8 @@ import android.hardware.usb.UsbDeviceConnection;
 import android.hardware.usb.UsbInterface;
 import android.hardware.usb.UsbManager;
 import android.util.Log;
+import android.widget.Toast;
+
 import de.grundid.weather.Constants;
 
 public class AttachedDeviceHandler {
@@ -59,10 +61,12 @@ public class AttachedDeviceHandler {
 			if (vendorId == VENDOR_ID && productId == PRODUCT_ID) {
 				connectWithPermission(device);
 				found = true;
+				Toast.makeText(context, "Device found!", Toast.LENGTH_LONG).show();
 			}
 		}
 		if (!found) {
 			Log.e(Constants.TAG, "device not found");
+			Toast.makeText(context, "Device not found", Toast.LENGTH_LONG).show();
 		}
 	}
 
